@@ -5,9 +5,8 @@
 <details>
 <summary>Details</summary>
 
-- [Docker Images](#docker-images)
-  - [Login](#login)
-  - [GRAPE](#grape)
+- [Login](#login)
+- [GRAPE](#grape)
 
 </details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
