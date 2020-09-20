@@ -24,3 +24,20 @@ rm -rdf output
 mkdir output
 docker run -v `pwd`/output:/output -it --rm docker.pkg.github.com/automatic-programming/docker-images/grape:v0.0.4
 ```
+
+## AutoML-Zero
+### Setup dataset
+```shell script
+docker pull docker.pkg.github.com/automatic-programming/docker-images/dataset:v0.1.1
+
+mkdir -p test_data
+docker run -v `pwd`/test_data:/test_data -it --rm dataset:v0.1.1
+```
+
+```shell script
+docker pull docker.pkg.github.com/automatic-programming/docker-images/automl-zero:v0.1.1
+
+rm -rdf output
+mkdir output
+docker run -v `pwd`/test_data:/test_data -v `pwd`/output:/output -it --rm docker.pkg.github.com/automatic-programming/docker-images/automl-zero:v0.1.1
+```
