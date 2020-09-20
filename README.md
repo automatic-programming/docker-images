@@ -9,6 +9,7 @@
 - [GRAPE](#grape)
 - [AutoML-Zero](#automl-zero)
   - [Setup dataset](#setup-dataset)
+  - [Run](#run)
 
 </details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
